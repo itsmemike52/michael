@@ -3522,7 +3522,7 @@ input, select, textarea {
 
 /* Sidebar */
 
-	#sidebar {
+#sidebar {
     padding: 2.5em 2.5em 0.5em 2.5em;
     background: #312450;
     cursor: default;
@@ -3870,6 +3870,7 @@ body.is-preload #sidebar nav ul li {
     }
 
 }
+
 
 
 

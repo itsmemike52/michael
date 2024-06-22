@@ -2794,6 +2794,7 @@ input, select, textarea {
 	ul.contact {
 		list-style: none;
 		padding: 0;
+		
 	}
 
 		ul.contact > li {
@@ -3206,6 +3207,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		background-image: url("images/intro.svg");
 	}
 
 		.wrapper > .inner {
@@ -3912,9 +3914,48 @@ body.is-preload #sidebar nav ul li {
 			}
 
 		}
+		
+		
+		
   .image.fit figcaption {
-    text-align: center; /* Center the label text */
-    margin-top: 10px; /* Space between the image and the label */
-    font-size: 14px; /* Font size of the label */
-    color: #333; /* Color of the label text */
+    text-align: center; 
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: #333;
   }
+
+.project-hover img {
+    transition: transform 0.3s ease;
+}
+
+.project-hover img:hover {
+    transform: scale(1.2);
+}
+
+.row.gtr-uniform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row.gtr-uniform .col-2 {
+    flex: 1 1 20%;
+    margin: 10px;
+    max-width: 20%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    .row.gtr-uniform .col-2 {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .row.gtr-uniform .col-2 {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+

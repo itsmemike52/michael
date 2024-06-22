@@ -3909,3 +3909,9 @@ body.is-preload #sidebar nav ul li {
 			}
 
 		}
+  .image.fit figcaption {
+    text-align: center; /* Center the label text */
+    margin-top: 10px; /* Space between the image and the label */
+    font-size: 14px; /* Font size of the label */
+    color: #333; /* Color of the label text */
+  }

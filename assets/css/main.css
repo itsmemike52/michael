@@ -3960,4 +3960,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 
+.map-iframe {
+    margin-left: 20px; /* Adjust this value as needed */
+}
 

@@ -2790,7 +2790,9 @@ input, select, textarea {
 .contact-wrapper {
     display: flex;
     justify-content: center;
+
 }
+
 	ul.contact {
 		list-style: none;
 		padding: 0;
@@ -3958,9 +3960,7 @@ body.is-preload #sidebar nav ul li {
         max-width: 100%;
     }
 }
-
-
 .map-iframe {
-    margin-right: 50px; 
-} 
+    margin-left: 20px;
+}
 

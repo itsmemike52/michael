@@ -3955,7 +3955,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 /* Adjust height for smaller screens using a media query */
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     .responsive-map {
         height: 300px; /* Set a fixed height for mobile screens */
     }

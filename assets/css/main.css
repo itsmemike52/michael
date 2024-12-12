@@ -3948,14 +3948,14 @@ body.is-preload #sidebar nav ul li {
 }
 .responsive-map {
     width: 100%; /* Use 100% of the container width */
-    max-width: 900px; /* Limit the maximum width for desktops */
+    max-width: 400px; /* Limit the maximum width for desktops */
     height: auto; /* Automatically adjust height */
     aspect-ratio: 3 / 2; /* Maintain the width-to-height ratio */
     border: 0;
 }
 
 /* Adjust height for smaller screens using a media query */
-@media (max-width: 300px) {
+@media (max-width: 600px) {
     .responsive-map {
         height: 300px; /* Set a fixed height for mobile screens */
     }

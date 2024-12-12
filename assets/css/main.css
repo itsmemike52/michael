@@ -3946,18 +3946,32 @@ body.is-preload #sidebar nav ul li {
     max-width: 20%;
     box-sizing: border-box;
 }
-
 .responsive-map {
+    width: 100%; /* Use 100% of the container width */
+    max-width: 900px; /* Limit the maximum width for desktops */
+    height: auto; /* Automatically adjust height */
+    aspect-ratio: 3 / 2; /* Maintain the width-to-height ratio */
+    border: 0;
+}
+
+/* Adjust height for smaller screens using a media query */
+@media (max-width: 600px) {
+    .responsive-map {
+        height: 300px; /* Set a fixed height for mobile screens */
+    }
+}
+
+/*.responsive-map {
     width: 100%;
-    max-width: 300px; /* Restrict maximum width for larger screens */
+    max-width: 300px; 
     height: auto;
-    aspect-ratio: 3 / 2; /* Maintain a responsive aspect ratio */
+    aspect-ratio: 3 / 2; 
     border: 0;
 }
 
 @media (max-width: 300px) {
     .responsive-map {
-        height: 300px; /* Adjust height for smaller screens */
+        height: 300px; 
     }
 }
 /*@media (max-width: 800px) {

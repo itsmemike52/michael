@@ -3947,6 +3947,14 @@ body.is-preload #sidebar nav ul li {
     box-sizing: border-box;
 }
 
+.responsive-map {
+    width: 100%;
+    max-width: 900px; /* Restrict maximum width for larger screens */
+    height: auto;
+    aspect-ratio: 3 / 2; /* Maintain a responsive aspect ratio */
+    border: 0;
+}
+
 @media (max-width: 800px) {
     .row.gtr-uniform .col-2 {
         flex: 1 1 45%;

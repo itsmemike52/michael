@@ -3955,7 +3955,12 @@ body.is-preload #sidebar nav ul li {
     border: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+    .responsive-map {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}
+/*@media (max-width: 800px) {
     .row.gtr-uniform .col-2 {
         flex: 1 1 45%;
         max-width: 45%;
@@ -3967,7 +3972,7 @@ body.is-preload #sidebar nav ul li {
         flex: 1 1 100%;
         max-width: 100%;
     }
-}
+}*/
 .map-iframe {
     margin-left: 20px;
 }

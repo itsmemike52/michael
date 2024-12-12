@@ -3948,7 +3948,7 @@ body.is-preload #sidebar nav ul li {
 }
 .responsive-map {
     width: 100%; /* Use 100% of the container width */
-    max-width: 400px; /* Limit the maximum width for desktops */
+    max-width: 700px; /* Limit the maximum width for desktops */
     height: auto; /* Automatically adjust height */
     aspect-ratio: 3 / 2; /* Maintain the width-to-height ratio */
     border: 0;

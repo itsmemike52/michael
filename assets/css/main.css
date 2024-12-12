@@ -3949,7 +3949,7 @@ body.is-preload #sidebar nav ul li {
 
 .responsive-map {
     width: 100%;
-    max-width: 200px; /* Restrict maximum width for larger screens */
+    max-width: 600px; /* Restrict maximum width for larger screens */
     height: auto;
     aspect-ratio: 3 / 2; /* Maintain a responsive aspect ratio */
     border: 0;
